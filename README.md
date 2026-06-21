@@ -6,6 +6,32 @@ This project demonstrates an end-to-end retail analytics pipeline built using Mi
 
 The pipeline processes more than 500,000 retail transactions, performs data cleaning and transformation using PySpark, stores processed data in Azure services, and prepares datasets for business intelligence reporting in Power BI.
 
++------------------+
+| Online Retail CSV|
++------------------+
+          |
+          v
++------------------+
+| Azure Blob Store |
++------------------+
+          |
+          v
++------------------+
+| Azure Databricks |
+|    PySpark ETL   |
++------------------+
+          |
+          v
++------------------+
+| Azure SQL DB     |
++------------------+
+          |
+          v
++------------------+
+| Power BI         |
+| Dashboard        |
++------------------+
+
 **## Tech Stack**
 
 - Azure Databricks
